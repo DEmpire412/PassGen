@@ -2,9 +2,8 @@
 //  PassGenApp.swift
 //  PassGen
 //
-//  Created by David Empire on 3/13/23.
-//
 
+//Code that initializes app (created by Xcode)
 import SwiftUI
 
 @main
@@ -13,5 +12,8 @@ struct PassGenApp: App {
         WindowGroup {
             ContentView()
         }
+        #if os(macOS)
+        .windowStyle(HiddenTitleBarWindowStyle())
+        #endif
     }
 }
