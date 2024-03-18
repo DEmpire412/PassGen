@@ -61,7 +61,6 @@ struct ContentView: View {
                         Text("\(createdPW)")
                             .fontWeight(.bold)
                             .font(.title)
-                            .background(.primary)
                             .textSelection(.enabled)
                             .padding(20)
                     }
